@@ -20,7 +20,7 @@ func findMinArrowShots(points [][]int) int {
 	return ret
 }
 
-func main() {
+func main452() {
 	fmt.Println(findMinArrowShots([][]int{{10,16},{2,8},{1,6},{7,12}})) //2
 	fmt.Println(findMinArrowShots([][]int{{1,2},{3,4},{5,6},{7,8}})) //4
 	fmt.Println(findMinArrowShots([][]int{{1,2},{2,3},{3,4},{4,5}})) //2
